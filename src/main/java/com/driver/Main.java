@@ -17,8 +17,9 @@ public class Main {
 
     public static void main(String[] args) {
         Product p = new Product();
-        p.product(5, 6, 7);
-        p.product(5, 5);
-        p.product(5.0, 10.0);
+        int ans1 = p.product(5, 6, 7);
+        int ans2 = p.product(5, 5);
+        double ans3 = p.product(5.0, 10.0);
+        System.out.println(ans1 +" "+ ans2 +" "+ ans3);
     }
 }
